@@ -3,5 +3,8 @@
   "author": "Valentin Vichnal <VV00llII01@gmail.com>",
   "version": "0.0.0",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "hammerjs": "^2.0.8"
+  }
 }
