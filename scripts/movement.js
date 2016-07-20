@@ -37,6 +37,22 @@ pc.script.create('movement', function (app) {
             if (app.keyboard.isPressed(pc.KEY_DOWN)) {
                 forceZ += this.speed;
             }
+            // secondery keys
+            if (app.keyboard.isPressed(pc.KEY_A)) {
+                forceX = -this.speed;
+            } 
+            
+            if (app.keyboard.isPressed(pc.KEY_D)) {
+                forceX += this.speed;
+            }
+            
+            if (app.keyboard.isPressed(pc.KEY_W)) {
+                forceZ = -this.speed;
+            } 
+            
+            if (app.keyboard.isPressed(pc.KEY_S)) {
+                forceZ += this.speed;
+            }
             
              if (app.keyboard.isPressed(pc.KEY_SPACE)) {
                 this.entity.rigidbody.applyImpulse(0, 0.5, 0);
