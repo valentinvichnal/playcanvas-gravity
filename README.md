@@ -10,7 +10,6 @@ Gravity WebGL experiment in the Solar System
 | Move    | <kbd>left</kbd> <kbd>right</kbd> <kbd>up</kbd> <kbd>down</kbd>     |
 | Move (Secondary)    | <kbd>A</kbd> <kbd>D</kbd> <kbd>W</kbd> <kbd>S</kbd>     |
 | Fly | <kbd>spacebar</kbd> |
-| Mute sound    | <kbd>M</kbd>      |
 
 ## Source
 - Codes: /scripts
