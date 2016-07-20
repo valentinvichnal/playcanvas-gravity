@@ -12,3 +12,12 @@ WebGL Gravity experiment in the Solar System
 ## Source
 - Codes: /scripts
 - Assets, Models and project file: https://playcanvas.com/project/411552/overview/gravity
+
+## Todos
+- Make the Apple Tree on Earth move with the ground
+- Make Apples on Earth move with the ground
+- Make Ball on Earth move with the ground
+- Make planets size realistic
+- Make planets rotate realistic
+- Make planets orbit around the Sun
+- Make gravitational field for all planets and apply the force to the Apples and Ball if they close
