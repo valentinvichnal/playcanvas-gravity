@@ -1,9 +1,7 @@
 # gravity.js
-WebGL Gravity experiment in the Solar System
-https://valentinvichnal.github.io/gravity.js/
+Gravity WebGL experiment in the Solar System
 
-## Demo
-https://valentinvichnal.github.io/gravity.js/
+**Demo** - https://valentinvichnal.github.io/gravity.js/
 ![alt tag](https://valentinvichnal.github.io/gravity.js/gravity-1.jpg)
 
 ## Controls
