@@ -16,3 +16,7 @@ iframe {
   overflow:hidden;
   z-index:999999;
 }
+
+#open-image {
+  display: none;
+}
