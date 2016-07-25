@@ -7,13 +7,15 @@ Gravity WebGL experiment in the Solar System
 ## Controls
 |              | Button              |
 |--------------|---------------------|
-| Move    | <kbd>left</kbd> <kbd>right</kbd> <kbd>up</kbd> <kbd>down</kbd>     |
-| Move (Secondary)    | <kbd>A</kbd> <kbd>D</kbd> <kbd>W</kbd> <kbd>S</kbd>     |
+| Move    | <kbd>us</kbd> <kbd>left</kbd> <kbd>down</kbd> <kbd>right</kbd>     |
+| Move (Secondary)    | <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd>     |
 | Fly | <kbd>spacebar</kbd> |
 
 ## Source
-- Codes: /scripts
-- Assets, Models and project file: https://playcanvas.com/project/411552/overview/gravity
+- Project: https://playcanvas.com/project/411552/overview/gravity
+(Script-Entity connections and Map designs are only available in the PlayCanvas editor and aren't saved in this repo)
+- Scripts: /scripts
+- Assets, Models: https://playcanvas.com/project/411552/overview/gravity
 
 ## Todos
 - Make the Apple Tree on Earth move with the ground
