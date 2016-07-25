@@ -1,3 +1,8 @@
+// The camera entity movements based on
+pc.script.attribute('camera', 'entity', null, {
+    displayName: 'Camera'
+});
+
 // Controls the movement speed
 pc.script.attribute('speed', 'number', 0.1, {
     min: 0.05,
@@ -20,44 +25,30 @@ pc.script.create('movement', function (app) {
         update: function (dt) {
             var forceX = 0;
             var forceZ = 0;
+            var forward = this.camera.forward;
+            var right = this.camera.right;
             
             // calculate force based on pressed keys
-            if (app.keyboard.isPressed(pc.KEY_LEFT)) {
-                forceX = -this.speed;
+            if (app.keyboard.isPressed(pc.KEY_UP) || app.keyboard.isPressed(pc.KEY_W)) {
+                forceX += forward.x;
+                forceZ += forward.z;
             } 
-            
-            if (app.keyboard.isPressed(pc.KEY_RIGHT)) {
-                forceX += this.speed;
+            if (app.keyboard.isPressed(pc.KEY_DOWN) || app.keyboard.isPressed(pc.KEY_S)) {
+                forceX -= forward.x;
+                forceZ -= forward.z;
             }
-            
-            if (app.keyboard.isPressed(pc.KEY_UP)) {
-                forceZ = -this.speed;
+            if (app.keyboard.isPressed(pc.KEY_LEFT) || app.keyboard.isPressed(pc.KEY_A)) {
+                forceX -= right.x;
+                forceZ -= right.z;
             } 
-            
-            if (app.keyboard.isPressed(pc.KEY_DOWN)) {
-                forceZ += this.speed;
+            if (app.keyboard.isPressed(pc.KEY_RIGHT) || app.keyboard.isPressed(pc.KEY_D)) {
+                forceX += right.x;
+                forceZ += right.z;
             }
-            // secondery keys
-            if (app.keyboard.isPressed(pc.KEY_A)) {
-                forceX = -this.speed;
-            } 
-            
-            if (app.keyboard.isPressed(pc.KEY_D)) {
-                forceX += this.speed;
-            }
-            
-            if (app.keyboard.isPressed(pc.KEY_W)) {
-                forceZ = -this.speed;
-            } 
-            
-            if (app.keyboard.isPressed(pc.KEY_S)) {
-                forceZ += this.speed;
-            }
-            
-             if (app.keyboard.isPressed(pc.KEY_SPACE)) {
+            if (app.keyboard.isPressed(pc.KEY_SPACE)) {
                 this.entity.rigidbody.applyImpulse(0, 0.5, 0);
             }
-                        
+
             this.force.x = forceX;
             this.force.z = forceZ;
             
@@ -65,8 +56,8 @@ pc.script.create('movement', function (app) {
             if (this.force.length()) {
                 
                 // calculate force vector
-                var rX = Math.cos(-Math.PI * 0.25);
-                var rY = Math.sin(-Math.PI * 0.25);
+                var rX = Math.cos(-Math.PI * 2);
+                var rY = Math.sin(-Math.PI * 2);
                 this.force.set(this.force.x * rX - this.force.z * rY, 0, this.force.z * rX + this.force.x * rY);
                 
                 // clamp force to the speed

@@ -5,6 +5,7 @@ Gravity WebGL experiment in the Solar System
 ![alt tag](https://valentinvichnal.github.io/gravity.js/gravity-1.jpg)
 
 ## Controls
+Now with better movement controls, which are based on the camera view position and not the ball's absolute position.
 |              | Button              |
 |--------------|---------------------|
 | Move    | <kbd>up</kbd> <kbd>left</kbd> <kbd>down</kbd> <kbd>right</kbd>     |
