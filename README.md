@@ -31,7 +31,8 @@ Now with better movement controls, which are based on the camera view position a
 ## Credits
 - Engine - PlayCanvas WebGL:
 https://playcanvas.com/
-- Music - Stellardrone - Milliways:
-https://stellardrone.bandcamp.com/
-- Model - Low-Poly planets (Christian Dinkelborg, Martin Niehoff) Into Deep Space
-https://playcanvas.com/project/375395/overview/into-deep-space
+- Music:
+Stellardrone - Milliways: https://stellardrone.bandcamp.com/
+
+- Models:
+Low-Poly planets (Christian Dinkelborg, Martin Niehoff) Into Deep Space: https://playcanvas.com/project/375395/overview/into-deep-space
