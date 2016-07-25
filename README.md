@@ -6,6 +6,7 @@ Gravity WebGL experiment in the Solar System
 
 ## Controls
 Now with better movement controls, which are based on the camera view position and not the ball's absolute position.
+
 |              | Button              |
 |--------------|---------------------|
 | Move    | <kbd>up</kbd> <kbd>left</kbd> <kbd>down</kbd> <kbd>right</kbd>     |
