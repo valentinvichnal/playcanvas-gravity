@@ -12,6 +12,7 @@ Now with better movement controls, which are based on the camera view position a
 | Move    | <kbd>up</kbd> <kbd>left</kbd> <kbd>down</kbd> <kbd>right</kbd>     |
 | Move (Secondary)    | <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd>     |
 | Fly | <kbd>spacebar</kbd> |
+| Fall | <kbd>CTRL</kbd> |
 
 ## Source
 - Project: https://playcanvas.com/project/411552/overview/gravity

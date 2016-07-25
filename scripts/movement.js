@@ -48,6 +48,9 @@ pc.script.create('movement', function (app) {
             if (app.keyboard.isPressed(pc.KEY_SPACE)) {
                 this.entity.rigidbody.applyImpulse(0, 0.5, 0);
             }
+            if (app.keyboard.isPressed(pc.KEY_CONTROL)) {
+                this.entity.rigidbody.applyImpulse(0, -0.5, 0);
+            }
 
             this.force.x = forceX;
             this.force.z = forceZ;
