@@ -29,10 +29,14 @@ Now with better movement controls, which are based on the camera view position a
 - Make gravitational field for all planets and apply the force to the Apples and Ball if they close
 
 ## Credits
-- Engine - PlayCanvas WebGL:
+### Engine
+- PlayCanvas WebGL:
 https://playcanvas.com/
-- Music:
-Stellardrone - Milliways: https://stellardrone.bandcamp.com/
 
-- Models:
-Low-Poly planets (Christian Dinkelborg, Martin Niehoff) Into Deep Space: https://playcanvas.com/project/375395/overview/into-deep-space
+### Music:
+- Stellardrone - Milliways:
+https://stellardrone.bandcamp.com/
+
+### Models:
+- Low-Poly planets in Into Deep Space (Christian Dinkelborg, Martin Niehoff):
+https://playcanvas.com/project/375395/overview/into-deep-space
