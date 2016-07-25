@@ -7,7 +7,7 @@ Gravity WebGL experiment in the Solar System
 ## Controls
 |              | Button              |
 |--------------|---------------------|
-| Move    | <kbd>us</kbd> <kbd>left</kbd> <kbd>down</kbd> <kbd>right</kbd>     |
+| Move    | <kbd>up</kbd> <kbd>left</kbd> <kbd>down</kbd> <kbd>right</kbd>     |
 | Move (Secondary)    | <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd>     |
 | Fly | <kbd>spacebar</kbd> |
 
