@@ -21,10 +21,12 @@ Now with better movement controls, which are based on the camera view position a
 - Assets, Models: https://playcanvas.com/project/411552/overview/gravity
 
 ## Todos
+### Minor
 - Make the Apple Tree on Earth move with the ground
 - Make Apples on Earth move with the ground
 - Make Ball on Earth move with the ground
-- Make planets size realistic
+
+### Major
 - Add Pluto
 - Make planets rotate realistic
 - Make planets orbit around the Sun
