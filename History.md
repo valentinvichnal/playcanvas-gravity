@@ -1,3 +1,7 @@
+## v1.1.2
+
+* Make planets' size more realistic
+
 ## v1.1.1
 
 * Use CTRL key to fall down
