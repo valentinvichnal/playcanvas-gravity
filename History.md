@@ -1,3 +1,9 @@
+## v1.4.2
+
+* Format Code
+* Create Libs folder
+* Remove Pluto
+
 ## v1.1.2
 
 * Make planets' size more realistic
