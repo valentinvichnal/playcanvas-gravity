@@ -1,7 +1,7 @@
 # gravity.js
 Gravity WebGL experiment in the Solar System
 
-**Demo** - https://valentinvichnal.github.io/gravity.js/
+**Demo** - http://valentinvichnal.com/gravity
 ![alt tag](https://valentinvichnal.github.io/gravity.js/gravity-1.jpg)
 
 ## Controls
@@ -27,7 +27,6 @@ Now with better movement controls, which are based on the camera view position a
 - Make Ball on Earth move with the ground
 
 ### Major
-- Add Pluto
 - Make planets rotate realistic
 - Make planets orbit around the Sun
 - Make gravitational field for all planets and apply the force to the Apples and Ball if they close
@@ -42,5 +41,4 @@ https://playcanvas.com/
 https://stellardrone.bandcamp.com/
 
 ### Models:
-- Low-Poly planets in Into Deep Space (Christian Dinkelborg, Martin Niehoff):
-https://playcanvas.com/project/375395/overview/into-deep-space
+- Low-Poly planets: Christian Dinkelborg, Martin Niehoff
