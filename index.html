@@ -15,6 +15,27 @@
     <body>
         <iframe src="https://playcanv.as/p/kHBZ7phI/"></iframe>
         <img id="open-image" src="gravity-1.jpg">
-        <audio id="sound" src="StellardroneMilliways.mp3" type="audio/mpeg" autoplay loop>
+        <audio id="player" src="StellardroneEternity.mp3" type="audio/mpeg" />
     </body>
+
+    <script type="text/javascript">
+      var audio = document.getElementById("player");
+      var music1 = 'StellardroneEternity.mp3';
+      var music2 = 'StellardroneMilliways.mp3';
+      var currentMusic = music1;
+
+      audio.play();
+
+      audio.addEventListener('ended', function() {
+        if (currentMusic === music1) {
+          audio.src = music2;
+          currentMusic = music2;
+        }
+        else {
+          audio.src = music1;
+          currentMusic = music1;
+        }
+        audio.play();
+      });
+    </script>
 </html>
