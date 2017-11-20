@@ -37,8 +37,7 @@ Now with better movement controls, which are based on the camera view position a
 https://playcanvas.com/
 
 ### Music:
-- Stellardrone - Milliways:
-https://stellardrone.bandcamp.com/
+- Stellardrone - Eternity: https://stellardrone.bandcamp.com/
 
 ### Models:
 - Low-Poly planets: Christian Dinkelborg, Martin Niehoff
