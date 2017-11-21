@@ -27,7 +27,6 @@ Now with better movement controls, which are based on the camera view position a
 - Make Ball on Earth move with the ground
 
 ### Major
-- Make planets rotate realistic
 - Make planets orbit around the Sun
 - Make gravitational field for all planets and apply the force to the Apples and Ball if they close
 
