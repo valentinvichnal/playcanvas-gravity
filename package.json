@@ -1,7 +1,7 @@
 {
   "name": "playcanvas-gravity",
   "author": "Valentin Vichnal <valentin@vichnal.com>",
-  "version": "1.4.2",
+  "version": "2.0.0",
   "license": "SEE LICENSE IN LICENSE",
   "private": false,
   "dependencies": {
