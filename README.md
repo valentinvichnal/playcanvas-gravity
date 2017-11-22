@@ -1,7 +1,7 @@
-# gravity.js
+# playcanvas-gravity
 Gravity WebGL experiment in the Solar System
 
-**Demo** - http://valentinvichnal.com/gravity
+**Demo** - http://valentinvichnal.com/playcanvas-gravity
 ![Gravity](gravity-1.jpg)
 
 ## Controls
@@ -19,16 +19,6 @@ Now with better movement controls, which are based on the camera view position a
 (Script-Entity connections and Map designs are only available in the PlayCanvas editor and aren't saved in this repo)
 - Scripts: /scripts
 - Assets, Models: https://playcanvas.com/project/411552/overview/gravity
-
-## Todos
-### Minor
-- Make the Apple Tree on Earth move with the ground
-- Make Apples on Earth move with the ground
-- Make Ball on Earth move with the ground
-
-### Major
-- Make planets orbit around the Sun
-- Make gravitational field for all planets and apply the force to the Apples and Ball if they close
 
 ## Credits
 ### Engine
