@@ -1,41 +1,62 @@
 <html>
-    <head>
-      <title>Gravity WebGL</title>
-      <meta charset="utf-8">
-      <meta name="description" content="WebGL Gravity experiment in the Solar System">
-      <meta name="viewport" content="width=device-width, shrink-to-fit=0, user-scalable=no, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0"
-      />
-      <meta property="og:url" content="https://valentinvichnal.github.io/gravity.js/" />
-      <meta property="og:type" content="website" />
-      <meta property="og:title" content="Gravity WebGL" />
-      <meta property="og:description" content="WebGL Gravity experiment in the Solar System" />
-      <meta property="og:image" content="https://valentinvichnal.github.io/gravity.js/gravity-1.jpg" />
-      <link rel="stylesheet" href="main.css">
-    </head>
-    <body>
-        <iframe src="https://playcanv.as/p/kHBZ7phI/"></iframe>
-        <img id="open-image" src="gravity-1.jpg">
-        <audio id="player" src="StellardroneEternity.mp3" type="audio/mpeg" />
-    </body>
 
-    <script type="text/javascript">
-      var audio = document.getElementById("player");
-      var music1 = 'StellardroneEternity.mp3';
-      var music2 = 'StellardroneMilliways.mp3';
-      var currentMusic = music1;
+<head>
+  <title>Gravity WebGL</title>
+  <meta charset="utf-8">
+  <meta name="description" content="WebGL Gravity experiment in the Solar System">
+  <meta name="viewport" content="width=device-width, shrink-to-fit=0, user-scalable=no, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0"
+  />
+  <meta property="og:url" content="https://valentinvichnal.github.io/gravity.js/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Gravity WebGL" />
+  <meta property="og:description" content="WebGL Gravity experiment in the Solar System" />
+  <meta property="og:image" content="https://valentinvichnal.github.io/gravity.js/gravity-1.jpg" />
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <div id="open" onclick="startApp()">
+    <img src="play.png" alt="">
+  </div>
+
+  <iframe src="https://playcanv.as/p/kHBZ7phI/"></iframe>
+  <img id="open-image" src="gravity-1.jpg">
+  <audio id="player" src="StellardroneEternity.mp3" type="audio/mpeg" />
+</body>
+
+<script type="text/javascript">
+  var init = false;
+
+  var audio = document.getElementById("player");
+  var music1 = 'StellardroneEternity.mp3';
+  var music2 = 'StellardroneMilliways.mp3';
+  var currentMusic = music1;
+
+  function startApp() {
+    if (!init) {
+      console.log('start');
+      init = true;
+
+      var open = document.getElementById("open");
+      open.style.display = 'none';
 
       audio.play();
+    }
+  }
 
-      audio.addEventListener('ended', function() {
-        if (currentMusic === music1) {
-          audio.src = music2;
-          currentMusic = music2;
-        }
-        else {
-          audio.src = music1;
-          currentMusic = music1;
-        }
-        audio.play();
-      });
-    </script>
+
+  audio.addEventListener('ended', function () {
+    if (currentMusic === music1) {
+      audio.src = music2;
+      currentMusic = music2;
+    }
+    else {
+      audio.src = music1;
+      currentMusic = music1;
+    }
+    audio.play();
+  });
+
+</script>
+
 </html>
